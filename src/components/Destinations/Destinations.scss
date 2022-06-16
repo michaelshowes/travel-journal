@@ -1,0 +1,59 @@
+.destinations {
+  display: flex;
+  padding: 18px 0;
+  font-size: 10.24px;
+
+  .img-container {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 19px;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 168px;
+    }
+  }
+
+  .content {
+    margin: auto 0;
+
+    .country {
+      text-transform: uppercase;
+      margin-right: 12px;
+
+      &:before {
+        content: url('../../assets/images/marker.svg');
+        width: 7px;
+        height: 9.55px;
+        margin-right: 4px;
+      }
+    }
+
+    .map {
+      color: #918E9B;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .title {
+      font-size: 25px;
+      margin: 8px 0 16px;
+    }
+
+    .dates {
+      font-weight: 700;
+      margin-bottom: 9px;
+    }
+
+    .description {
+      line-height: 15.36px;
+    }
+  }
+}

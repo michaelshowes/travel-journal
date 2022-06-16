@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #fff;
+  padding: 16px 0;
+
+  img {
+    margin-right: 7px;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 14.46px;
+    font-weight: 500;
+  }
+}
