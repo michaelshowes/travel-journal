@@ -12,7 +12,8 @@ function App() {
         img={ item.img }
         country={ item.country }
         destination={ item.destination }
-        dates={ item.dates }
+        start_date={ item.start_date }
+        end_date={ item.end_date }
         description={ item.description }
         map={ item.map }
       />
